@@ -1,5 +1,6 @@
 import React from "react";
 import Book from "./Book";
+import BookGrid from "./BookGrid";
 
 function BookShelf(props) {
   return (
@@ -11,9 +12,11 @@ function BookShelf(props) {
           </div>
           <div className="border-b-4 border-indigo-300"></div>
         </div>
+        <BookGrid />
 
-        <Book image="https://images-na.ssl-images-amazon.com/images/I/71k6YnPTVvL.jpg" title="How to read a person like a book?" authors="Gerard , Henry, Grayson"/>
+        
 
+        
       </div>
     </>
   );
