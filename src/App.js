@@ -1,5 +1,6 @@
 import BookShelf from "./components/BookShelf";
 import Header from "./components/Header";
+import ShelfChanger from "./components/ShelfChanger";
 
 
 function App() {
